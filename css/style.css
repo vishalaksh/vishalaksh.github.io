@@ -92,7 +92,7 @@ ul, ol {
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #ffffff;
+	/*color: #ffffff;*/
 	font-size: 12px;
 	letter-spacing: 1px;
 	font-weight: 500;
@@ -167,7 +167,9 @@ header p {
 /* About Section */
 #about-section {
 	padding: 80px 0;
-	background: #fff;
+	background: white;
+
+	
 }
 #about-section .color {
 	color: #f38181;
@@ -252,9 +254,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #services-section .service:hover > i.fa {
 	color: #555;
 }
+
+/* timeline Section */
+#timeline-section {
+	padding: 80px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
+}
+.space {
+	margin-top: 40px;
+}
+#timeline-section i.fa {
+	font-size: 32px;
+	margin-bottom: 10px;
+	color: #f59898;
+	transition: all 0.5;
+}
+#timeline-section .service:hover > i.fa {
+	color: #555;
+}
+
+.timeline-text{
+	text-align: left;
+}
+
+#timeline-section img{
+	padding-bottom: 10px;
+}
 /* Gallery Section 
 ==============================*/
-#works-section {
+#portfolio {
 	padding: 100px 0 0 0;
 }
 .categories {
@@ -357,7 +390,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#works-section i.fa {
+#portfolio i.fa {
 	height: 30px;
 	width: 30px;
 	border: 1px solid rgba(25,181,254,0.3);
@@ -605,12 +638,13 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Social Section */
 #social-section {
 	padding: 35px 0 25px 0;
-	background-color: #e6e6e6;
-	text-align: center;
+	/*background-color: #e6e6e6;*/
+	/*text-align: center;*/
 }
 #social-section .social ul li {
 	display: inline-block;
-	margin: 0 30px;
+	margin-right:30px;
+	text-align: center;
 }
 #social-section .social i.fa {
 	color: #f59898;
@@ -682,3 +716,10 @@ label {
   color: #444;
  /* font-weight: 300;*/
 }
+
+.about-text{
+	text-align: center;
+
+}
+
+
