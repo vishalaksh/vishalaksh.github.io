@@ -314,9 +314,11 @@ ol.type li a:hover {
 }
 .portfolio-item {
 	margin-bottom: 30px;
+	text-align: center;
+	max-height: 1000px;
 }
 .portfolio-item .hover-bg {
-	max-height: 300px;
+	/*max-height: 300px;*/
 	overflow: hidden;
 	position: relative;
 }
@@ -655,4 +657,28 @@ label {
 .hover-bg .hover-text {
 	padding: 22% 10%;
 }
+}
+
+.portfolio-item .img-responsive {
+	max-width: 50%;
+	
+	margin: auto;
+}
+
+.portfolio-item .img-responsive.land {
+	max-width: 100%;
+	
+}
+
+.ppt {
+  font-size: 30px;
+  font-weight: 300;
+  color: #000;
+ /* margin-top: 20px;*/
+}
+.ppd {
+ /* font-size: 18px;*/
+  text-align: justify;
+  color: #444;
+ /* font-weight: 300;*/
 }

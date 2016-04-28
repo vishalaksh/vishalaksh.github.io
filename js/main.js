@@ -91,6 +91,7 @@ function main() {
         var $container = $('.portfolio-items');
         $container.isotope({
             filter: '*',
+            layoutMode: 'fitRows',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
