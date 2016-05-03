@@ -80,9 +80,9 @@ ul, ol {
 #menu a.navbar-brand {
 	text-transform: uppercase;
 	font-size: 22px;
-	color: #fff;
+	/*color: #fff;*/
 	font-weight: 600;
-	background-image: url(../img/logo-icon.png);
+	/*background-image: url(../img/logo-icon.png);*/
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding-left: 34px;
@@ -167,7 +167,7 @@ header p {
 /* About Section */
 #about-section {
 	padding: 80px 0;
-	background: white;
+	background:rgba(0, 0, 0, 0.04);
 
 	
 }
@@ -236,12 +236,8 @@ header p {
 #services-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
-}
+	background:rgba(0, 0, 0, 0.05);/* Old browsers */
+	/**/}
 .space {
 	margin-top: 40px;
 }
@@ -259,11 +255,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #timeline-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
+	 /* Old browsers */
+	
 }
 .space {
 	margin-top: 40px;
@@ -289,6 +282,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 ==============================*/
 #portfolio {
 	padding: 100px 0 0 0;
+
 }
 .categories {
 	padding-bottom: 30px;
@@ -560,11 +554,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #contact-section {
 	padding: 100px 0 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
-	background: #ffffff; /* Old browsers */
-	background: -moz-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #ffffff 50%, #f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 ); /* IE6-9 */
+	background:rgba(0, 0, 0, 0.05);
 }
 #contact-section h3 {
 	font-size: 20px;
@@ -643,7 +633,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #social-section .social ul li {
 	display: inline-block;
-	margin-right:30px;
+	margin-right:15px;
+	margin-left:15px;
 	text-align: center;
 }
 #social-section .social i.fa {
