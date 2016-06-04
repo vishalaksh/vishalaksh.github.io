@@ -82,7 +82,7 @@ ul, ol {
 	font-size: 22px;
 	/*color: #fff;*/
 	font-weight: 600;
-	/*background-image: url(../img/logo-icon.png);*/
+	background-image: url(../img/logo_red.png);
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding-left: 34px;
@@ -713,4 +713,30 @@ label {
 
 }
 
+
+/*****/
+
+.btn-sample.btn-primary {
+    background: #f59898;
+      border-color: #FFFFFF; 
+  }
+
+  .btn-sample.disabled, 
+.btn-sample[disabled], 
+fieldset[disabled] .btn-sample, 
+.btn-sample.disabled:hover, 
+.btn-sample[disabled]:hover, 
+fieldset[disabled] .btn-sample:hover, 
+.btn-sample.disabled:focus, 
+.btn-sample[disabled]:focus, 
+fieldset[disabled] .btn-sample:focus, 
+.btn-sample.disabled:active, 
+.btn-sample[disabled]:active, 
+fieldset[disabled] .btn-sample:active, 
+.btn-sample.disabled.active, 
+.btn-sample[disabled].active, 
+fieldset[disabled] .btn-sample.active { 
+  background-color: #F59898; 
+  border-color: #FFFFFF; 
+} 
 
