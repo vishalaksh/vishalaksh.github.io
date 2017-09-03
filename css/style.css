@@ -36,11 +36,12 @@ p {
 	font-size: 13px;
 }
 a {
-	color: #777;
+	color: #f38181;
 }
 a:hover, a:focus {
 	text-decoration: none;
 	color: #f38181;
+	/*font-weight: bold;*/
 }
 .clearfix:after {
 	visibility: hidden;
