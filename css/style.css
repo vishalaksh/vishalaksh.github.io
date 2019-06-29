@@ -168,7 +168,7 @@ header p {
 /* About Section */
 #about-section {
 	padding: 80px 0;
-	background:rgba(0, 0, 0, 0.04);
+	/*background:rgba(0, 0, 0, 0.04);*/
 
 	
 }
@@ -237,7 +237,7 @@ header p {
 #services-section {
 	padding: 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
-	background:rgba(0, 0, 0, 0.05);/* Old browsers */
+	/*background:rgba(0, 0, 0, 0.05);*//* Old browsers */
 	/**/}
 .space {
 	margin-top: 40px;
@@ -481,7 +481,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /* Achivements Section */
 #achievements {
 	padding: 0 0 50px 0;
-	background: #CCCCCC;
+	/*background: #CCCCCC;*/
 }
 .achievement-box i.fa {
 	font-size: 54px;
@@ -490,7 +490,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-bottom: 20px;
 }
 .achievement-box h4 {
-	color: #ffffff;
+	/*color: #ffffff;*/
 	font-size: 15px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -498,8 +498,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .achievement-box span.count {
 	font-size: 52px;
 	font-weight: 600;
-	display: block;
-	color: #fff;
+	/*display: block;*/
+	/*color: #fff;*/
+}
+.achievement-box span.countstatic {
+	font-size: 52px;
+	font-weight: 600;
+	/*display: block;*/
+	/*color: #fff;*/
 }
 /* Testimonials Section */
 #testimonials-section {
@@ -555,7 +561,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #contact-section {
 	padding: 100px 0 80px 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,f6f6f6+100 */
-	background:rgba(0, 0, 0, 0.05);
+	/*background:rgba(0, 0, 0, 0.05);*/
 }
 #contact-section h3 {
 	font-size: 20px;
